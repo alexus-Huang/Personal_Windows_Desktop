@@ -4,6 +4,7 @@
 }
 body{
     background-color: white;
+    overflow: hidden;
 }
 /* To Do Tasks Widget */
 #todo{
@@ -26,4 +27,17 @@ body{
     letter-spacing: 0.1em;
     margin:10px;
     padding:3px;
+}
+/* Time Widget on the bottom left of the "screen" */
+#time{
+    background-color: rgb(105, 171, 229);
+    min-width:300px;
+    min-height:200px;
+    max-width:400px;
+    max-height: 300px;
+    position: fixed;
+    bottom: 0px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
