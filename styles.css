@@ -33,6 +33,7 @@ body{
     letter-spacing: 0.1em;
     margin:10px;
     padding:4px;
+    transition: background-color 0.1s ease;
 }
 #todo p:hover{
     background-color:rgba(44, 44, 44, 0.9);
