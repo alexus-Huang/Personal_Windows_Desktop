@@ -50,7 +50,24 @@ body{
     background-color: black;
 }
 
-/* Widgets on the right side of the "desktop scren" */
+/* Main widget container on the right side of the "desktop scren" */
 #widgets{
     background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: fixed;
+    right:0;
+    bottom:30%;
+    width:40%;
+    height:10%;
+    max-width: 50%;
+    gap:20px;
+}
+
+/* Widgets inside the widget contianer */
+#firstWidget{
+
 }
