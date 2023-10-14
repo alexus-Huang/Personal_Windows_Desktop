@@ -3,7 +3,7 @@
     padding:0;
 }
 body{
-    background-color: white;
+    background-image: url("gaming\ setup\ wallpaper.jpg");
     overflow: hidden;
 }
 /* To Do Tasks Widget */
@@ -59,7 +59,7 @@ body{
     flex-wrap: wrap;
     position: fixed;
     right:0;
-    bottom:25%;
+    bottom:10%;
     width:40%;
     height:25%;
     gap:20px;
@@ -76,16 +76,21 @@ body{
     justify-content: center;
     align-items: center;
     width:27%;
-    height: 40%;
+    height: 20%;
     /* background-color: aliceblue; */
     border-radius: 10%;
     font-family: 'Courier New', Courier, monospace;
     font-weight: lighter;
     padding:1%;
     transition: box-shadow 0.15s ease-out;
+    color:rgba(255, 255, 255, 0.8);
+    transition:color 0.15s ease-out;
+    font-size:80%;
 }
 .widgets:hover{
-    box-shadow: 0px 2px 5px rgba(0,0,0,0.7);
+    box-shadow: 0px 5px 10px rgb(9, 9, 9);
     cursor: pointer;
     transition: box-shadow 0.15s ease-in;
+    color:rgb(255, 255, 255);
+    transition: color 0.15s ease-in;
 }
