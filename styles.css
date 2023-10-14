@@ -62,7 +62,19 @@ body{
     height:3%;
     background-color: rgb(32, 32, 32);
 }
-
+/* Hot Bar Apps */
+#hotbar img{
+    image-resolution: 4000dpi;
+    width: auto;
+    height: auto;
+    left:0;
+    cursor: pointer;
+    transition: opacity 0.1s ease;
+}
+#hotbar img:hover{
+    opacity: 0.7;
+    transition: opacity 0.1s ease;
+}
 /* Main widget container on the right side of the "desktop scren" */
 #widgets{
     display: flex;
