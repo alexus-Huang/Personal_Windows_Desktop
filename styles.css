@@ -4,7 +4,10 @@
 }
 body{
     background-image: url("gaming\ setup\ wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.96);
 }
 /* To Do Tasks Widget */
 #todo{
@@ -12,11 +15,14 @@ body{
     max-width:300px;
     min-height:200px;
     max-height: 300px;
-    background-color: rgb(249, 249, 249);
+    background-color: rgba(0, 0, 0, 0.1);
     border-radius: 10%;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     margin:5px;
+    color: white;
+    padding:10px;
+    transition: background-color 0.15s ease;
 }
 #todo h1{
     margin:5px;
@@ -26,17 +32,24 @@ body{
     font-size: 1.2em;
     letter-spacing: 0.1em;
     margin:10px;
-    padding:3px;
+    padding:4px;
+}
+#todo p:hover{
+    background-color:rgba(44, 44, 44, 0.9);
+    border-radius: 3%;
+    cursor: default;
+    transition: background-color 0.15s ease;
 }
 /* Time Widget on the bottom left of the "screen" */
 #time{
-    background-color: rgb(105, 171, 229);
+    color:white;
     min-width:300px;
     min-height:200px;
     max-width:400px;
     max-height: 300px;
     position: fixed;
-    bottom: 3%;
+    bottom: -3%;
+    left:-2.5%;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -59,8 +72,10 @@ body{
     flex-wrap: wrap;
     position: fixed;
     right:0;
-    bottom:10%;
+    bottom:5%;
     width:40%;
+    max-width:40%;
+    min-width:20%;
     height:25%;
     gap:20px;
     padding:10px;
@@ -77,20 +92,19 @@ body{
     align-items: center;
     width:27%;
     height: 20%;
-    /* background-color: aliceblue; */
     border-radius: 10%;
     font-family: 'Courier New', Courier, monospace;
     font-weight: lighter;
     padding:1%;
-    transition: box-shadow 0.15s ease-out;
     color:rgba(255, 255, 255, 0.8);
-    transition:color 0.15s ease-out;
     font-size:80%;
+    transition: color 0.2s ease-out;
+    transition: box-shadow 0.18s ease-out;
 }
 .widgets:hover{
-    box-shadow: 0px 5px 10px rgb(9, 9, 9);
+    box-shadow: 0px 5px 10px rgba(247, 5, 5,0.4);
     cursor: pointer;
-    transition: box-shadow 0.15s ease-in;
     color:rgb(255, 255, 255);
-    transition: color 0.15s ease-in;
+    transition: color 0.2s ease-in;
+    transition: box-shadow 0.2s ease-in;
 }
