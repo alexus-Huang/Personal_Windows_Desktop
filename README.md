@@ -5,7 +5,7 @@ This project only uses HTML and CSS to get familiar with the coding environment 
 Note:
   - THIS PROJECT IS NOT RESPONSIVE TO DIFFERENT SCREEN SIZES
     - This project was created on a screen that is 3840 x 2160 pixels with "landscape" as the orientation
-  -This project was created only for fun and to get used to coding. The programmer (Alexus Huang) is not trying to replicate every function  on the actual Windows desktop screen. 
+This project was created only for fun and to get used to coding. The programmer (Alexus Huang) is not trying to replicate every function  on the actual Windows desktop screen. 
 PURPOSE:
     - The purpose of this project is to only be familiar with git and GitHub
     - The purpose of this project is to only be familiar with HTML and CSS
