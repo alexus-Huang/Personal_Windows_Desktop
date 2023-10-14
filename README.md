@@ -2,6 +2,7 @@
 A personal Windows desktop as a "website"
 --------------------------------------------------
 This project only uses HTML and CSS to get familiar with the coding environment in Visual Studio Code and to practice using the terminal/Gitbash to commit and create branches
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 This project was created only for fun and to get used to coding. The programmer (Alexus Huang) is not trying to replicate every function  on the actual Windows desktop screen.
 Note:
   - THIS PROJECT IS NOT RESPONSIVE TO DIFFERENT SCREEN SIZES
