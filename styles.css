@@ -66,20 +66,31 @@ body{
     padding:0;
 }
 /* Hot Bar Apps */
-#hotbar img{
+#homeBtn{
     image-resolution: 4000dpi;
-    width: auto;
-    height: auto;
+    width: 50px;
+    height: 40px;
     left:0;
     cursor: pointer;
     transition: opacity 0.1s ease;
     margin:0;
     padding:0;
 }
-#hotbar img:hover{
+#homeBtn:hover{
     opacity: 0.7;
     transition: opacity 0.1s ease;
 }
+.hotbarApps{
+    image-resolution: 4000dpi;
+    width: 50px;
+    height: 40px;
+    left:0;
+    cursor: pointer;
+    transition: opacity 0.1s ease;
+    margin:0;
+    padding:0;
+}
+
 /* Hot bar search bar */
 #hotbar input[type="text"]{
     background-color: rgba(255,255,255,0.9);
