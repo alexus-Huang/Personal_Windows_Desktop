@@ -142,7 +142,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     position: fixed;
     right:0;
@@ -153,6 +153,7 @@ body{
     height:25%;
     gap:20px;
     padding:10px;
+    background-color: aliceblue;
 }
 #widgets::after{
     content:"";
