@@ -16,7 +16,7 @@ PURPOSE:
     
 
 GOAL:
-  The goal of this project is to be able to design a personal Windows desktop as a "website" with limited knowledge as of 10/14/2023. This project was first designed on Figma and was constructed after designing the layout.
+  The goal of this project is to be able to design a personal Windows desktop as a "website" with using the knowledge the programmer has as of 10/14/2023. This project was first designed on Figma and was constructed after designing the layout.
 
 
 Edited Dates: 10/12/2023 -> 10/14/2023
